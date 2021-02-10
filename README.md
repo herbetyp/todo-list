@@ -2,7 +2,6 @@
 
 `Lista Todo - Desenvolvido com DRF (Django Rest Framework) e Vue.js`
 
----
 &nbsp;
 ## __Features__
 - [ ] CRUD das tarefas
