@@ -17,7 +17,7 @@ repos:
         language: python
 
   - repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: master
+    rev: master
     hooks:
       - id: trailing-whitespace
       - id: check-merge-conflict
