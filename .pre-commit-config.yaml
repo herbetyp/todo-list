@@ -8,11 +8,11 @@ repos:
         args: ["--line-length", "119", "--force-exclude", "migrations", "-S"]
         language_version: python3.8
 
-  - repo: local
+  - repo: https://github.com/PyCQA/flake8
+    rev: master
     hooks:
       - id: flake8
         name: Flake8
-        description: This hook runs flake8
         entry: flake8 --config=./backend/.flake8
         language: python
 
