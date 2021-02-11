@@ -1,7 +1,7 @@
 
 repos:
   - repo: https://github.com/psf/black
-    rev: stable
+    rev: 20.8b1
     hooks:
       - id: black
         name: Black
@@ -9,7 +9,7 @@ repos:
         language_version: python3.8
 
   - repo: https://github.com/PyCQA/flake8
-    rev: master
+    rev: 3.8.4
     hooks:
       - id: flake8
         name: Flake8
@@ -17,7 +17,7 @@ repos:
         language: python
 
   - repo: git://github.com/pre-commit/pre-commit-hooks
-    rev: master
+    sha: master
     hooks:
       - id: trailing-whitespace
       - id: check-merge-conflict
