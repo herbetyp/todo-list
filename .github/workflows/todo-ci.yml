@@ -20,13 +20,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup Python 3.8
+    - name: Instalando o Python 3.8
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
 
     - name: Copiando Configurações
-      run: cp contrib/env-sample .env
+      run: cp .github/env/env-sample .env
 
     - name: Instalando Poetry
       uses: Gr1N/setup-poetry@v4
